@@ -40,8 +40,9 @@ public void onCreate(Bundle savedInstanceState) {
 	mAttacher = new PhotoViewAttacher(mImageView);
 }
 
-
-// If you later call mImageView.setImageDrawable/setImageBitmap/setImageResource/etc then you just need to call
+```
+If you later call mImageView.setImageDrawable/setImageBitmap/setImageResource/etc. then you just need to call:
+``` java
 attacher.update();
 ```
 
